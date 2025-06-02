@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: white;
+  font-family: "Syne", sans-serif;
+  overflow-x: hidden;
+}
+
+.section {
+  padding: 4rem 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .menu-btn {
+    font-size: 1.2rem;
+  }
+}
