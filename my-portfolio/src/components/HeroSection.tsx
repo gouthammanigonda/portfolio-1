@@ -15,7 +15,7 @@ const HeroSection = () => {
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundImage: `url('/bg.jpg')`, // Make sure bg.jpg exists in /public
+          backgroundImage: `url('/bg.png')`, // Make sure bg.jpg exists in /public
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           y,
