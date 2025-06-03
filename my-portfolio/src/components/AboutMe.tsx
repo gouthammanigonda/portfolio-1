@@ -4,7 +4,7 @@ import FadeInSection from './FadeInSection';
 const AboutMe = () => {
   return (
     <section id="about" className="container">
-      <FadeInSection>
+      <FadeInSection direction="left" >
         <Typography.Title style={{ color: 'white', textAlign: 'center' }}>
           About Me
         </Typography.Title>
